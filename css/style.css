@@ -1,0 +1,62 @@
+/* GENERAL */
+body
+{
+    font-family: 'Lato',sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+}
+img
+{
+    max-width: 100%;
+    height:auto;
+}
+section .heading
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* ABOUT */
+#about
+{
+    padding-top: 100px;
+    background: #023E14;
+    
+}
+.profile-picture
+{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+#about .heading h1
+{
+    padding-top: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+#about .heading h3
+{
+    color: black;
+}
+.button1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+.button1:hover
+{
+    background: white;
+    color:#023E14;
+    text-decoration: none;
+    
+}
