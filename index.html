@@ -5,17 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/myLogo.png">
     <title>CV Aicha</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">MOI</a></li>
+                    <li><a href="#skills">COMPÉTENCES</a></li>
+                    <li><a href="#experience">EXPÉRIENCE PROFESSIONELLE</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#recommandations">RECOMMANDATIONS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <section id="about" class="container-fluid">
         <div class="col-xs-8 col-md-4 profile-picture">
-            <img src="images/me.PNG" alt="Aicha Draoui" class="rounded-circle">
+            <img src="images/me.PNG" alt="Aicha Draoui" class="img-circle">
         </div>
         <div class="heading">
             <h1>Hello, C'est moi Aicha</h1>
@@ -23,5 +46,169 @@
             <a href="docs/AICHA-DRAOUI-CV.pdf" class="button1">Télécharger CV</a>
         </div>
     </section>
+    <section id="skills">
+        <div class="green-divider"></div>
+        <div class="heading">
+            <h2>Compétences</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%"><h5>HTML 85%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"><h5>CSS 70%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"><h5>JAVASCRIPT 60%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"><h5>BOOTSTRAP 70%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"><h5>ANGULAR 50%</h5></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%"><h5>PHP 65%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"><h5>SQL 80%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"><h5>PYTHON 75%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%"><h5>JAVA/JEE 65%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"><h5>LANGAGE C 75%</h5></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Expérience Professionelle</h2>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>GSDEV</h3>
+                                <h4>Développeur Web</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"> 01/07/2022-31/07/2022</small></p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Mise en place d’une plateforme e-learning</p>
+                                <p>Développement du site web gsdevacademie.net</p>
+                                <p>Gestion des professeurs et formations dans la partie admin</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <div class="green-divider"></div>
+                <div class="heading">
+                    <h2>Education</h2>
+                </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2017-2019</h5>
+                        <span class="glyphicon glyphicon-education"></span>
+                        <h3>Baccalauréat SM A</h3>
+                        <div class="green-divider"></div>
+                        <p>Science mathématique A</p>
+                        <p>Mention très bien</p>
+                        <p>Jaafar El Fassi El Fihri</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2019-2024</h5>
+                        <span class="glyphicon glyphicon-education"></span>
+                        <h3>Ingénieur d'Etat</h3>
+                        <div class="green-divider"></div>
+                        <p>intelligence artificielle et</p>
+                        <p>génie informatique</p>
+                        <p>ENSAM CASABLANCA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="https://gsdevacademie.net/" target="_blank" class="thumbnail">
+                            <img src="images/gsdev2.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="http://www.google.com" target="_blank" class="thumbnail">
+                            <img src="images/myLogo.png">
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="recommandations">
+        <div class="container">
+            <div class="green-divider"></div>
+            <div class="heading">
+                <h2>Recommandations</h2>
+            </div>
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <ol  class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <h3>"L'esprit le plus créatif que j'ai vu de toute ma vie..."</h3>
+                        <h4>Jack Dorsey, Twitter Founder and CEO</h4>
+                    </div>
+                    <div class="item">
+                        <h3>"Merci Aicha de m'avoir appris à coder...Tout ça c'est grâce à toi!"</h3>
+                        <h4>Mark Zuckerberg, Facebook Founder and CEO</h4>
+                    </div>
+                    <div class="item">
+                        <h3>"Aicha t'es la meilleure"</h3>
+                        <h4>"Larry Page, Google Co-Founder"</h4>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center">
+        <a href="#about">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <h5>© 2022 AICHADRAOUI.COM</h5>
+    </footer>
 </body>
 </html>
